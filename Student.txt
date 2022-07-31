@@ -1,0 +1,6 @@
+2021500456,Nguyen Duy Thai,23/4/2003,Cong Nghe Thong Tin,CNTT01
+2021600373,Hoang Kim Nguyen Binh,12/07/202,Ki Thuat Phan Mem,KTPM04
+2021600123,Trinh Tuan Dat,22/03/2003,Cong Nghe Thong Tin,KTPM01
+2021400234,Nguyen Hong Quan,20/04/2003,Ngon Ngu Anh,NNA02
+2021600789,Nguyen Hoang Duong,12/2/2003,Quan Tri Kinh Doanh,QTKD03
+2021456321,Nguyen Trung Nghia,27/07/2003,Tu Dong Hoa,TDH02
