@@ -90,8 +90,8 @@ int updateStudentByID()
 int searchStudent()
 {
     int id;
-char tempName[30];
-char tempClass[30];
+    char tempName[30];
+    char tempClass[30];
 
     int choice = 0;
 
