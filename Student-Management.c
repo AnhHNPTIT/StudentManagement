@@ -46,6 +46,7 @@ void addStudent()
     struct Student student;
     printf("Enter student id: ");
     scanf("%d", &student.studentID);
+    getchar();
     printf("Enter student name: ");
     gets(student.name);
     printf("Enter date of birth: ");
@@ -57,12 +58,14 @@ void addStudent()
     listStudents[numStudents++] = student;
     printf ("Add new student successful\n\n ");
 }
+
 int updateStudentByID()
 {
     int id;
     char tempName[30],tempBirthday[30],tempCourse[30],tempclass[30];
     printf("\nEnter the id of student you want to find: ");
     scanf("%d", &id);
+    getchar();
     for (int i=0; i < numStudents ; i++)
     {
         if (id == listStudents[i].studentID)
@@ -175,6 +178,7 @@ int searchStudent()
         break;
     }
 }
+
 void viewListStudents()
 {
     printf("------------------------------------------------------------"
@@ -187,6 +191,7 @@ void viewListStudents()
     printf("-------------------------------------------------------------"
            "----------------------------------------------------------------\n");
 }
+
 void sortByClass()
 {
 
@@ -203,6 +208,7 @@ void sortByClass()
         }
     }
 }
+
 int main()
 {
     int choice = 0;
